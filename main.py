@@ -11,7 +11,7 @@ def read_file_content(filename):
      
     # using the read() method and 
     # closing the file automatically with the "with" statement
-    with open('./story.txt') as story:
+    with open(filename) as story:
         contents = story.read()
     # returns the read text in the file as a string
     return contents
